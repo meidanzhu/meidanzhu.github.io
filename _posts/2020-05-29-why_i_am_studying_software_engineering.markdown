@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "WHY I AM STUDYING SOFTWARE ENGINEERING?"
-date:       2020-05-29 15:27:19 +0000
+title:      "Why am I studying Software Engineering?"
+date:       2020-05-29 11:27:20 -0400
 permalink:  why_i_am_studying_software_engineering
 ---
 
