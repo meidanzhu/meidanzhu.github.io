@@ -1,11 +1,11 @@
 # Site settings
 author: Mei Zhu
-title: Why am I studying Software Engineering?
+title: Coding Journey
 header-img: img/home-bg.png
 email: meidan.zhu@gmail.com
 copyright_name: Mei Zhu
 description: > # this means to ignore newlines until "baseurl:"
-  blog #1
+  blogs
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  meidanzhu
