@@ -32,7 +32,7 @@ end
 ```
 
 A **has_many :through** association is often used to set up a many-to-many connection with another model. This association indicates that the declaring model can be matched with zero or more instances of another model by proceeding through a third model.
-* The *Photo* table will have a row with the user_id and category_id columns corresponding to our given user and category. When submitting a form on the browser, the Photo table will have a new row with the correct user_id and group_id values.
+* The Photos table will have a row with the user_id and category_id columns corresponding to our given user and category. When submitting a form on the browser, the Photos table will have a new row with the correct user_id and group_id values.
 * ```
 class User < ApplicationRecord
     has_many :photos
@@ -45,7 +45,7 @@ class Category < ApplicationRecord
     has_many :users, through: :photos
 end
 ```
-*In a Rails app, the basic belongsto and hasmany relationship is required for the models to access each other.*
+*In a Rails app, the basic belongs_to and has_many relationship is required for the models to access each other.*
 * ActiveRecord association also gives us methods based of the assocations. 
 - The build method provides the same functionality as .new would, but instantiates with the defined association. For example, @photo.categories.build instantiates a category object that is already associated with @photo. Just like .new, the object has not been saved to the database. 
 - Reader and Writer Methods. 
