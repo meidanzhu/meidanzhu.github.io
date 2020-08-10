@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Rails Project - More About Associatios"
-date:       2020-08-10 18:47:01 +0000
+title:      "Rails Project - More About Associations"
+date:       2020-08-10 14:47:02 -0400
 permalink:  rails_project_-_more_about_associatios
 ---
 
